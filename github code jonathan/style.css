@@ -895,6 +895,209 @@ input[type=submit]:hover {
 
 
 
+.containerp{
+    padding: 70px;
+}
+
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 5px solid hsl(146, 100%, 28%);
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+ 
+}
+
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: #ea3333;
+  color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: hsl(146, 100%, 28%);
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.flip-card-back p {
+    font-size: 25px;
+}
+
+
+
+
+/*
+home icon
+*/
+
+
+.containerh{
+    padding: 70px;
+    margin-top: -340px;
+    margin-left: 480px;
+    
+    
+}
+
+
+
+
+.flip-cardh {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 5px solid hsl(0, 97%, 45%);
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-innerh {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+ 
+}
+
+
+.flip-cardh:hover .flip-card-innerh {
+  transform: rotateY(180deg);
+}
+
+
+/* Position the front and back side */
+.flip-card-fronth, .flip-card-backh {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-fronth {
+  background-color: #ea3333;
+  color: black;
+}
+
+/* Style the back side */
+.flip-card-backh {
+  background-color: hsl(0, 97%, 45%);
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.flip-card-back p {
+    font-size: 25px;
+}
+
+
+/*
+email icon
+*/
+
+
+.containerE{
+    padding: 70px;
+    margin-top: -340px;
+    margin-left: 950px;
+    
+    
+    
+}
+
+
+
+
+.flip-cardE {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 5px solid hsl(215, 97%, 45%);
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-innerE {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+ 
+}
+
+
+.flip-cardE:hover .flip-card-innerE {
+  transform: rotateY(180deg);
+}
+
+
+/* Position the front and back side */
+.flip-card-frontE, .flip-card-backE {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-frontE {
+  background-color: #ea3333;
+  color: black;
+}
+
+/* Style the back side */
+.flip-card-backE {
+  background-color: hsl(215, 97%, 45%);
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.flip-card-back p {
+    font-size: 25px;
+}
+
+
+.containericon{
+    background-color: rgb(20, 90, 131);
+    
+}
+
+
 
 
 
@@ -933,4 +1136,5 @@ footer
     color: white;
     margin: -20px;
     border: 5px dashed white;
+
 }
